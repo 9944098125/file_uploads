@@ -35,6 +35,10 @@ function App() {
       return;
     }
   }
+  // in the handleSubmit function you can create an object with backend values 
+  // and in the place of image u can give this savedPath as value and that image path 
+  // will be stored in the deatabase and again while retrieving images you can simply put 
+  // that path in the src attribute of img tag and the image is displayed
 
   return (
     <div className="container">
